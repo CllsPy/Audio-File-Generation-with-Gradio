@@ -1,18 +1,24 @@
-# Descrição do projeto
-O objetivo do projeto é, via Gradio e com a utilização do modelo AudioLDM que está hospedado na plataforma Huggingface, criar uma interface na qual seja possível gerar arquivos de áudio .wav via prompt como ser possível a download do arquivo.
+# 🎵 Project Description
 
-![](https://github.com/CllsPy/Generative_AI/blob/main/HuggingFace/Gradio/AudioMaker/assets/gui.png?raw=true)
+The goal of this project is to create an interface using **Gradio** and the **AudioLDM** model hosted on Huggingface, allowing users to generate .wav audio files via prompt and download the file.
 
-## Etapas
-1. Em primeiro lugar precisamos criar um processo que gera o conteúdo
-2. Converter o conteúdo gerado para algo conhecido, nesse caso .wav
-3. Criar a interface que recebe o prompt e o novo do arquivo
+<br>
 
-## Requeriments
-O processo foi inteiramente no Google Colabs e em seguida tranferido ao HuggingFace Spaces para deployment. A linguagem utilizada foi Python.
+![Audio Maker GUI](https://github.com/CllsPy/Generative_AI/blob/main/HuggingFace/Gradio/AudioMaker/assets/gui.png?raw=true)
 
-### Pacotes
+<br>
 
+## 🛠️ Steps
+1. **Create a process to generate the content**
+2. **Convert the generated content to a known format, in this case, .wav**
+3. **Build the interface that receives the prompt and the file name**
+
+## 📋 Requirements
+
+The entire process was developed in Google Colab and then transferred to HuggingFace Spaces for deployment. The programming language used is Python.
+
+### **Packages**
+Install the following packages in Python before running the code:
 ```python
 torch
 Transformers
@@ -21,6 +27,8 @@ gradio
 scipy
 ```
 
-## Autor
+## 👥 Author
+
 [Deployment on HuggingFace](https://huggingface.co/spaces/CASLL/audio-maker)
-[Cllspy - Github](https://github.com/CllsPy)
+
+[Cllspy - GitHub](https://github.com/CllsPy)
