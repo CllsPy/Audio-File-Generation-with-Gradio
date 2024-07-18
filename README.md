@@ -4,7 +4,7 @@ The goal of this project is to create an interface using **Gradio** and the **Au
 
 <br>
 
-![Audio Maker GUI](https://github.com/CllsPy/Generative_AI/blob/main/HuggingFace/Gradio/AudioMaker/assets/gui.png?raw=true)
+![](https://github.com/CllsPy/Generative_AI/blob/main/HuggingFace/Gradio/AudioMaker/assets/gui.png?raw=true)
 
 <br>
 
