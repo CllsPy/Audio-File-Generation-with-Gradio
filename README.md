@@ -2,12 +2,6 @@
 
 The goal of this project is to create an interface using **Gradio** and the **AudioLDM** model hosted on Huggingface, allowing users to generate .wav audio files via prompt and download the file.
 
-<br>
-
-![](https://github.com/CllsPy/Generative_AI/blob/main/HuggingFace/Gradio/AudioMaker/assets/gui.png?raw=true)
-
-<br>
-
 ## 🛠️ Steps
 1. **Create a process to generate the content**
 2. **Convert the generated content to a known format, in this case, .wav**
@@ -19,6 +13,7 @@ The entire process was developed in Google Colab and then transferred to Hugging
 
 ### **Packages**
 Install the following packages in Python before running the code:
+
 ```python
 torch
 Transformers
